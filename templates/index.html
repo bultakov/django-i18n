@@ -23,5 +23,9 @@
 	    <input type="submit" value="Go">
 	</form><br>
 	<h1>{{ text }}</h1>
+
+	{% for new in news %}
+		{{ new.name }}
+	{% endfor %}
 </body>
 </html>
